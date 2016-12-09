@@ -1,0 +1,15 @@
+
+
+mriscvcore.v
+mriscvcore_tb.v
+
+ALU/ALU.v
+DECO_INSTR/DECO_INSTR.v
+FSM/FSM.v
+IRQ/IRQ.v
+MEMORY_INTERFACE/MEMORY_INTERFACE.v
+MULT/MULT.v
+REG_FILE/REG_FILE.v
+UTILITIES/UTILITY.v
+
+./a.out +vcd

@@ -236,7 +236,8 @@ module mriscvcore_tb;
 			$dumpfile("mriscvcore_tb.vcd");
 			$dumpvars(0, mriscvcore_tb);
 		end
-		repeat (1000000) @(posedge clk);
+	//	repeat (1000000) @(posedge clk);
+       repeat (1000) @(posedge clk);
 		$display("TIMEOUT");
 		$finish;
 	end
